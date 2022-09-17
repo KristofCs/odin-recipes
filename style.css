@@ -1,0 +1,43 @@
+/* MAIN PAGE  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: powderblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight:400;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px dashed grey;
+    font-size: 1.5rem;
+    color: royalblue;
+}
+
+a:hover {
+    color: lightcoral;
+    font-style: italic;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 2.5rem;
+    width: 40%;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 2rem;
+}
